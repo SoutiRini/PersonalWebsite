@@ -1,0 +1,122 @@
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#main {
+  padding-top: 2cm;
+  padding-bottom: 2cm;
+  padding-right: 3cm;
+  background-color: rgb(3, 25, 75);
+  background-image: url("../assets/evening.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#contact-info {
+  list-style-type: none;
+  margin: 0;
+}
+#contact-info .list-group-item {
+  border-width: 0 2px 0 0;
+  border-right: 2px rgba(39, 39, 39, 0.92) ;
+  line-height: 1.4em;
+  padding: 0;
+  background-color: rgba(39, 39, 39, 0.92) ;
+}
+
+#sidebar, #topmatter {
+  text-transform: uppercase;
+}
+
+#topmatter {
+  margin-bottom: 1cm;
+  vertical-align: middle;
+  font-size: 1.4em;
+}
+
+h1, h2, h3 {
+  margin-top: 0px;
+  text-transform: uppercase;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+#bodytext h2 {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.right {
+  text-align: right;
+}
+
+#sidebar li {
+  font-size: 1.4em;
+}
+
+#sidebar h1 {
+  font-size: 2em;
+  font-style: normal;
+}
+
+#bodytext {
+  font-size: 2em;
+}
+
+.profile-photo {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  margin-bottom: 20px;
+}
+
+.pubtitle { font-weight: bold; }
+.abstract {
+  display: none;
+  background-color: #040404;
+  padding: 1em;
+  -webkit-box-shadow: inset 0 5px 5px rgba(1, 1, 1, 0.99);
+  -moz-box-shadow: inset 0 5px 5px rgba(1, 1, 1, 0.98);
+  box-shadow: inset 0 5px 5px rgba(0, 0, 0, 0.95);
+}
+
+.date-year {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.date-month {
+  text-transform: uppercase;
+  font-size: small;
+}
+
+.note {
+  font-weight: bold;
+}
+
+.authors {
+  font-size: 0.8em;
+}
+
+.venue {
+  font-size: 0.8em;
+}
+
+.links {
+  text-transform: uppercase;
+  font-size: small;
+  font-style: oblique;
+}
+
+a {
+  color: rgba(183, 224, 255, 0.98);
+  font-style: italic;
+}
+
+a:visited {
+  color: #e0d2ff;
+}
